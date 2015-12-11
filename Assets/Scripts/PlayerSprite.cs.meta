@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87d2121e88dbd4fe0adb467941a4f5b3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - sprite1: {fileID: 21300000, guid: b346608d72ce24c5eadeb2909c11e2b2, type: 3}
+  - sprite2: {fileID: 21300000, guid: b346608d72ce24c5eadeb2909c11e2b2, type: 3}
+  - sprite3: {fileID: 21300000, guid: b346608d72ce24c5eadeb2909c11e2b2, type: 3}
+  - sprite4: {instanceID: 0}
+  - sprite5: {instanceID: 0}
+  - sprite6: {instanceID: 0}
+  - sprite7: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

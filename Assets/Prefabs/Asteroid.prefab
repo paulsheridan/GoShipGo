@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 212: {fileID: 21200000}
+  - 50: {fileID: 5000000}
+  - 114: {fileID: 11400000}
+  - 60: {fileID: 6000000}
+  m_Layer: 10
+  m_Name: Asteroid
+  m_TagString: Asteroid
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.2435379, y: 4.43359327, z: 0}
+  m_LocalScale: {x: 3.79999995, y: 3.79999995, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!50 &5000000
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!60 &6000000
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: .42411533, y: -.394654006}
+      - {x: .519115448, y: -.293769449}
+      - {x: .559799492, y: -.0481123254}
+      - {x: .527116239, y: .0551012605}
+      - {x: .535000026, y: .32249999}
+      - {x: .49000001, y: .442499995}
+      - {x: .335000008, y: .567499995}
+      - {x: .209999993, y: .567499995}
+      - {x: .0250000004, y: .452499986}
+      - {x: -.0649999976, y: .412499994}
+      - {x: -.294999987, y: .417499989}
+      - {x: -.470992506, y: .371011198}
+      - {x: -.535000026, y: .257499993}
+      - {x: -.545000017, y: -.107500002}
+      - {x: -.405000001, y: -.287499994}
+      - {x: -.140000001, y: -.462500006}
+      - {x: .0138132917, y: -.580437779}
+      - {x: .187062129, y: -.486031204}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f2cbac7c3934f82926c38dc6d899fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidCrashSound: {fileID: 8300000, guid: 9d6b17ae651894fce8b082833e7893c2, type: 3}
+  missileRemains: {fileID: 100006, guid: 4f7c36d2ff6444d12a2db3ab037efac2, type: 2}
+  explode: {fileID: 0}
+  particlePrefab: {fileID: 19800000, guid: 3c1379c1d86064ddeb3d842a2665dfd7, type: 2}
+  objectsToDestroy:
+    serializedVersion: 2
+    m_Bits: 1024
+  raycastLayers:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!212 &21200000
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: fe1baa7e24474451e9099c57c229f226, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

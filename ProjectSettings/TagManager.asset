@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - AmmoPickup
+  - HealthPickup
+  - Asteroid
+  - LaserFX
+  - Laser
+  - Missile
+  - AsteroidChunk
+  - Enemy
+  - FxTemporaire
+  - HealthBar
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - Player
+  - Asteroids
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - GUI
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1257517851
+    locked: 0
+  - name: Asteroids
+    uniqueID: 287677127
+    locked: 0
+  - name: UI
+    uniqueID: 2692380165
+    locked: 0
